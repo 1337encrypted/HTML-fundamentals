@@ -1,0 +1,33 @@
+:root{
+    --main-padding: 1rem;
+    --main-margin: 1rem;
+}
+
+.display{
+    background-color: turquoise;
+    width: 89rem;
+    height: 10rem;
+    margin: var(--main-margin);
+}
+
+.increment{
+    background-color: skyblue;
+    width: 30rem;
+    height: 10rem;
+    margin: var(--main-margin);
+}
+
+.decrement{
+    background-color: skyblue;
+    width: 30rem;
+    height: 10rem;
+    margin: var(--main-margin);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: green;
+  }
