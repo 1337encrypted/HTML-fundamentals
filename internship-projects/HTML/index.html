@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Counter App</title>
-</head>
-<body>
-    <div class="container">
-        <div class="display">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <script src="../JAVASCRIPT/script.js"></script>
+        <title>Counter App</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div id="count" class="display">0</div>
+        </div> 
 
+        <div class="container">
+                <button  class="plus-button" type="button" onClick = "increment()">Increment + </button>
+                <button class="minus-button" type="button" onClick = "decrement()">Decrement - </button>
         </div>
-        <div class="increment">
-    
-        </div>
-        <div class="decrement">
-    
-        </div>
-    </div>
-   
-</body>
+    </body>
 </html>
