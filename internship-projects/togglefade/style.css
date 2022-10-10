@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.togglebtn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 47%;
+    margin-right: 45%;
+}
+
+#fadetoggle{
+    background-color: skyblue;
+    border-radius: 25px;
+}
+
+.box{
+    margin-left: 10%;
+    margin-right: 10%;
+}

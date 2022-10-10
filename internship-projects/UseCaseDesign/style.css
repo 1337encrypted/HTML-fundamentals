@@ -1,0 +1,41 @@
+
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    background-color: rgb(246 190 155);
+    padding: 20px; 
+    min-width: 80%;
+    min-height: 150px; 
+}
+.name{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(198 92 18); 
+    min-width: 10px;
+    height: 20px; 
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: rgb(246 190 155);
+    margin-top: 20px; 
+    min-width: 50%;
+    min-height: 500px;
+    margin-left: 150px;
+
+
+}
+
+.card2{
+    background-color: rgb(246 190 155);
+    margin-top: 20px; 
+    min-width: 30%;
+    min-height: 500px;
+    margin-right: 110px;
+}
