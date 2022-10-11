@@ -4,21 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/js/bootstrap.min.js">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JAVASCRIPT/script.js"></script>
+    <title>Products</title>
 </head>
 <body>
     <div class="container">
         <header>
+            <div class="Shopping">
+                <h1>Shopping cart</h1>
+                <input type="text" id="product" placeholder="Type Category">
+                <button id="btn1">Search</button>
+            </div>
             <div class="name">
                 COMPANY NAME
             </div>
+            <div id="count" class="Counter">0</div>
         </header>
 
-        <div class="cards">
-            <div class="card1"></div>
-            <div class="card2"></div>
-        </div>
+        <main>
+            <div class="card1">
+                <ul id="list" class="no-bullets">
+                </ul>
+            </div>
+            <div class="card2">
+                <h2>Your cart - details</h2>
+                <div class="details">
+                    <ul id="details1" class="no-bullets">
+                        <li id="1"></li>
+                        <li id="2"></li>
+                        <li id="3"></li>
+                    </ul>
+                    <div id="grandtotal">
+                        0
+                    </div>
+
+                </div>
+            </div>
+        </main>
+            
     </div>
 </body>
 </html>
