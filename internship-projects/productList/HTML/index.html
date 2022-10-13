@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <link rel="stylesheet" href="../bootstrap-3.4.1-dist/js/bootstrap.min.js">
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JAVASCRIPT/script.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/JAVASCRIPT/script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="Shopping">
         <h1>Shopping cart</h1>
+        <div id="counter">0</div>
         <input type="text" id="product" placeholder="Enter Category">
-        <button id="btn1">Search</button>
+        <button class="btn btn-secondary m-1" id="btn1">Search</button>
 
         <ul id="list" class="no-bullets">
         </ul>
     </div>
 
+    <table id="checkout">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </table>
+    
 </body>
 </html>

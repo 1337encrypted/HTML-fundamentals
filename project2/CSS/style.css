@@ -40,27 +40,33 @@ main{
     flex: 1;
 }
 .cards{
-    background-color: blue;
     min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1{
-    background-color: skyblue;
-    min-height: 100px;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    background-image: url(/images/image-background-card1.jpg);
     width: 30%;
 }
 
 .card2{
-    background-color: grey;
-    min-height: 100px;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    background-image: url(/images/image-background-card2.jpg);
     width: 30%;
 }
 
 .card3{
-    background-color: pink;
-    min-height: 100px;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    background-image: url(/images/image-background-card3.jpg);
     width: 30%;
 }
 
@@ -73,5 +79,19 @@ h1{
 
 p{
     line-height: 1.75rem;
-    margin-bottom: 0.5rem   ;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 20px 30px 20px 30px;
 }
