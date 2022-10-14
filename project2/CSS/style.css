@@ -39,6 +39,7 @@ main{
 .herobox2{
     flex: 1;
 }
+
 .cards{
     min-height: 300px;
     display: flex;
@@ -94,4 +95,28 @@ h2{
     font-size: 0.85rem;
     line-height: 1.2rem;
     margin: 20px 30px 20px 30px;
+}
+
+.cards i{
+    font-size: 100px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.card1, .card2, .card3{
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 30px 30px 20px 30px;
+}
+
+a.bookOnline{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color: #FA4083;
+    border-radius: 5px;
+    padding:  11px 25px;
+    display: inline-block;
 }
