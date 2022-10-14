@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/checkoutform.css">
+    <script src="/checkout.js"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Details form</h1>
+    <div>
+        <form action="#">
+            <table>
+                <tr><td>Name:     </td><td><input type="text" id="name"    class="forms" placeholder="Customer name"></td></tr>
+                <tr><td>Address:  </td><td><input type="text" id="address" class="forms" placeholder="Ex: Sadashiv nagar"></td></tr>
+                <tr><td>Street:   </td><td><input type="text" id="street"  class="forms" placeholder="Ex: 1st main 2nd cross"></td></tr>
+                <tr><td>City:     </td><td><input type="text" id="city"    class="forms" placeholder="Ex: Belgavi"></td></tr>
+                <tr><td>Pincode:  </td><td><input type="text" id="pincode" class="forms" placeholder="Ex: 590001"></td></tr>
+                <tr><td>Mobile No:</td><td><input type="text" id="mobile"  class="forms" placeholder="Ex: +91"></td></tr> 
+            </table>
+        </form>
+    </div>
+    <div>
+        <button id="confirm" class="btn btn-primary m-3">confirm</button>
+    </div>
+    <ul id="list"></ul>
+</body>
+</html>
